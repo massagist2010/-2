@@ -1,25 +1,23 @@
 public class Main {
     public static void main(String[] args) {;
-        //шестая задача:
-      byte banana = 5;
-      byte oneBanana = 80;
-      int weightBananas = banana * oneBanana;
-      int milk = 200;
-      byte milk1 = 100;
-      byte milk2 = 105;
-      long weightMilk = milk / milk1 * milk2;
-      byte ice = 2;
-      byte oneIce = 100;
-      int twoIce = ice * oneIce;
-      byte eggs = 4;
-      byte oneEgg = 70;
-      int eggs4 = eggs * oneEgg;
+        //седьмая задача:
+        byte lose = 7;
+        short weight = 1000;
+        int loseWeight = lose * weight;
 
-      long aloneGrams = eggs4 + twoIce + weightMilk + weightBananas;
-        System.out.println(aloneGrams);
-      short kg = 1000;
+        short gr = 250;
+        int totalDay250 = loseWeight / gr;
+        System.out.println("всего дней, если спортсмен теряет 250гр.в день, " +totalDay250);
 
-      double theWeightKg = aloneGrams / kg;
-        System.out.println("вес в кг. будет " + theWeightKg);
+        short gr2 = 500;
+        int totalDay500 = loseWeight / gr2;
+        System.out.println("дней, если спортсмен теряет 500гр. в день, " +totalDay500);
+
+
+        byte day01 = 28;
+        byte day02 = 14;
+        int daysWeight = day02 + day01;
+        int daysOnAverage = daysWeight / lose;
+        System.out.println("дней в среднем на похудение " +daysOnAverage);
     }
     }
